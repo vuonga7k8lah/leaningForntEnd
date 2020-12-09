@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To Do List</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>To Do List</h1>
+<fieldset>
+	<form action="#" method="GET">
+		<div>
+			<label>Name of Tank</label>
+			<input type="text" id="Name" name="Name" placeholder="add a tank"/>
+			<input type="hidden" id="index" name="index"/>
+		</div>
+		<div>
+			<button type="button" onclick="add()">Add</button>
+			<button type="button" onclick="LuuCapNhat()">Update</button>
+		</div>
+	</form>
+</fieldset>
+<br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<thead>
+	<tr>
+		<th>Status</th>
+		<th>Name of Tank</th>
+		<th>Action</th>
+	</tr>
+	</thead>
+	<tbody id="listData">
+	</tbody>
+</table>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    width: 800px;
+    margin: 20px auto;
+}
+h1 {
+    color: #cc3366;
+    text-align: center;
+}
+
+h2 {
+    color: #3366cc;
+    text-align: center;
+}
+
+legend {
+    width: 600px;
+    font-weight: bold;
+    color: #33cc66;
+}
+
+div {
+    margin: 5px;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    margin: 5px;
+}
