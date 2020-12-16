@@ -2,7 +2,7 @@ var aData = Array();
 
 function add() {
     var name = document.getElementById('Name').value;
-    aData.push({name,'status':false});
+    aData.push({name, 'status': false});
     document.getElementById("Name").value = "";
     LoadListData();
 }
@@ -99,3 +99,4 @@ function LoadListData() {
 
 
 }
+
